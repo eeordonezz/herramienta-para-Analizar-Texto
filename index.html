@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Herramienta de visualización de datos</title>
+    <link rel="stylesheet" href="./css/index.css">
+</head>
+<body>
+
+    <div class="contenedor">
+<!-- header -->
+        <header>
+            <h1>Herramienta de visualización de datos</h1>
+           <a href="">Pag. Anterior</a> 
+        </header>
+
+<!-- Resultados -->
+
+
+<div class="resultados">
+<!-- ajustar centrado -->
+    <div class="diseno_resultado">
+
+<!-- resultados de adentro -->
+        
+    <div class="titulo">
+        <h1>Analizar Texto</h1>
+    </div>
+
+    <div class="resultado_orden">
+        <div class="diseno_arriba">
+            <p>Número de oraciones: <span id="contar_oracion"> 0</span></p>
+            <p>Número de palabras: <span id="contar_palabras"> 0</span></p>
+            <p>Número de letras: <span id="contar_letras"> 0</span></p>
+
+        </div>
+       
+        <div class="diseno_abajo">
+            <p>Número de números:  <span id="contar_numeros"> 0</span></p>    
+            <p>Letras con Tilde:  <span id="contar_tildes"> 0</span></p>
+        </div>
+        
+    </div>
+
+    <!-- Introducir texto -->
+
+    <div class="texto">
+        <textarea id="introducir_texto" placeholder="Introduce tu texto para analizarlo...."></textarea>
+    </div>
+
+<!-- Boton para analizar texto -->
+
+    <div class="boton_funcion">
+        <button class="boton" onclick="analizar_text()">Analizar Texto</button>
+    
+     </div>
+
+
+
+
+
+
+
+        <!-- div del diseño resultado -->
+    </div>
+
+<!-- div del resultado -->
+   </div>
+
+
+
+
+    </div>
+    
+    <script src="./js/main.js"></script>
+</body>
+</html>
